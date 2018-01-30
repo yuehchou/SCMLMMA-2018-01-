@@ -1,0 +1,10 @@
+nvcc -sm_20 kernel1.cu -o kernel1	\
+nvcc kernel11.cu -o kernel11	\
+nvcc kernel2.cu -o kernel2	\
+nvcc kernel4.cu -o kernel4	\
+nvcc kernel5.cu -o kernel5	\
+
+nvcc -arch=sm_20 kernel2.cu -o kernel2
+
+
+
